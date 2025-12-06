@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Empiria ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our macOS music player application.
+RBv3X ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our macOS music player application.
 
 ## Information We Collect
 
