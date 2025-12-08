@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="icon.png" alt="RBv3X" width="128" height="128">
+  <img src="icon.png" alt="RBv3X" width="128">
 </p>
 
 <h1 align="center">RBv3X</h1>
 
 <p align="center">
-  <strong>Razer Basilisk v3 Series Settings Tool</strong>
+  <strong>Native macOS Controller for Razer Basilisk V3 Series</strong>
 </p>
 
 <p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Mac_App_Store-Download-blue?style=for-the-badge&logo=apple" alt="Download on Mac App Store">
+  <a href="https://github.com/7MichalKozlik7/RBv3X/releases/latest">
+    <img src="https://img.shields.io/badge/Download-Latest_Release-green?style=for-the-badge&logo=apple" alt="Download Latest Release">
   </a>
   <a href="https://github.com/7MichalKozlik7/RBv3X">
     <img src="https://img.shields.io/badge/GitHub-Source-black?style=for-the-badge&logo=github" alt="GitHub">
@@ -18,89 +18,92 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/macOS-14.0+-black?logo=apple" alt="macOS 14+">
+  <img src="https://img.shields.io/badge/macOS-13.0+-black?logo=apple" alt="macOS 13+">
   <img src="https://img.shields.io/badge/Apple_Silicon-Native-green?logo=apple" alt="Apple Silicon">
   <img src="https://img.shields.io/badge/Swift-5.9-orange?logo=swift" alt="Swift 5.9">
-  <img src="https://img.shields.io/badge/License-Free-blue" alt="Free">
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="MIT License">
 </p>
 
 ---
 
-Configure your Razer Basilisk V3 mouse on macOS. DPI control, RGB lighting, button mapping - all from your menu bar. A lightweight, native app built with SwiftUI.
+Control your Razer Basilisk V3 series gaming mouse directly from macOS. No Razer Synapse required. A lightweight menu bar app that gives you full control over DPI, RGB lighting, button mapping, and battery monitoring.
 
 ---
 
 ## Features
 
-### DPI Control
-Set mouse sensitivity from 100 to 35,000 DPI. Create custom presets for different tasks - low DPI for precise work, high DPI for fast navigation.
+### DPI Configuration
+Set custom DPI values from 100 to 26,000 DPI. Configure up to 5 DPI stages and quickly switch between them. Perfect for gaming, design work, or everyday use.
 
-### RGB Lighting
-Customize your mouse lighting effects. Choose from static colors, breathing effects, spectrum cycling, and more. Match your setup or create your own unique style.
+### RGB Lighting Effects
+Customize your mouse lighting with multiple effects:
+- **Static** — Solid color of your choice
+- **Breathing** — Smooth pulsing color effect
+- **Spectrum Cycling** — Rainbow color rotation
+- **Reactive** — Light up on click
+- **Starlight** — Twinkling star effect
 
-### Button Mapping
-Remap mouse buttons to system actions, keyboard shortcuts, or media controls. Configure your mouse exactly how you want it.
+### Button Remapping
+Remap mouse buttons to different functions. Customize your workflow with programmable buttons.
 
-### Battery Status
-Monitor battery level for wireless models. See charging status at a glance with the visual battery indicator.
+### Battery Monitoring
+Real-time battery level display for wireless models. Always know when it's time to charge.
 
-### Menu Bar App
-Lives in your menu bar - always one click away. No dock icon clutter. Clean, minimal interface.
-
-### Native macOS Experience
-Built with SwiftUI for a truly native interface. Supports Dark Mode and integrates seamlessly with macOS.
-
----
-
-## Screenshots
-
-<table>
-  <tr>
-    <td><img src="screenshots/01_DPI.png" alt="DPI Control"></td>
-    <td><img src="screenshots/02_RGB.png" alt="RGB Lighting"></td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/03_Buttons.png" alt="Button Mapping"></td>
-    <td><img src="screenshots/04_Settings.png" alt="Settings"></td>
-  </tr>
-</table>
+### Smart Lift-Off Distance
+Adjust the lift-off distance sensitivity for precise tracking control.
 
 ---
 
 ## Supported Devices
 
-| Device | DPI | Connection |
-|--------|-----|------------|
-| **Basilisk V3** | 26,000 | USB |
-| **Basilisk V3 35K** | 35,000 | USB |
-| **Basilisk V3 Pro** | 30,000 | USB / HyperSpeed |
-| **Basilisk V3 Pro 35K** | 35,000 | USB / HyperSpeed |
-| **Basilisk V3 X HyperSpeed** | 18,000 | HyperSpeed / Bluetooth |
+| Device | Connection | Max DPI |
+|--------|------------|---------|
+| **Basilisk V3** | USB Wired | 26,000 |
+| **Basilisk V3 Pro** | USB / 2.4GHz / Bluetooth | 26,000 |
+| **Basilisk V3 X HyperSpeed** | 2.4GHz / Bluetooth | 18,000 |
 
 ---
 
 ## Requirements
 
-- macOS 14.0 Sonoma or later
+- macOS 13.0 Ventura or later
 - Apple Silicon or Intel processor
 - Razer Basilisk V3 series mouse
 
 ---
 
+## Installation
+
+1. Download `RBv3X_v2.0.2_macOS.zip` from [Releases](https://github.com/7MichalKozlik7/RBv3X/releases/latest)
+2. Unzip the file
+3. Drag `RBv3X.app` to your Applications folder
+4. **First run:** Right-click the app and select "Open" (Gatekeeper bypass for unsigned app)
+5. Grant Accessibility permissions when prompted (required for button remapping)
+6. Connect your Razer Basilisk V3 via USB dongle (2.4GHz) or Bluetooth
+7. Enjoy!
+
+---
+
+## How It Works
+
+RBv3X communicates directly with your Razer mouse via USB HID protocol, the same method used by official software. The app runs as a lightweight menu bar utility, giving you quick access to all settings without cluttering your Dock.
+
+---
+
 ## Legal
 
+- [License (MIT)](LICENSE)
 - [Privacy Policy](privacy.md)
+- [Terms of Service](terms.md)
+- [EULA](eula.md)
+- [Support](support.md)
 
 ---
 
 <p align="center">
-  <strong>Your mouse. Your settings.</strong>
+  <strong>Your mouse. Your control. No bloatware.</strong>
 </p>
 
 <p align="center">
-  &copy; 2005 Michał Koźlik. All rights reserved.
-</p>
-
-<p align="center">
-  <em>Not affiliated with Razer Inc.</em>
+  &copy; 2025 Michal Kozlik. All rights reserved.
 </p>

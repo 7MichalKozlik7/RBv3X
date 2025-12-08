@@ -1,93 +1,60 @@
 # Privacy Policy
 
-**RBv3X - Razer Basilisk v3 Series Settings Tool**
+**Last updated: December 8, 2025**
 
-**Last Updated: December 6, 2025**
+## Introduction
 
----
+RBv3X ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our macOS application for controlling Razer Basilisk V3 series mice.
 
-## Summary
+## Information We Collect
 
-RBv3X is designed with privacy as a core principle. **We do not collect any personal information.** All your settings and preferences remain on your device.
+**We do not collect any personal information.**
 
----
+RBv3X is designed to operate entirely on your local device. The app:
 
-## What We Don't Collect
+- Does not require user registration or accounts
+- Does not collect or transmit personal data
+- Does not use analytics or tracking services
+- Does not access your contacts, calendar, or other personal information
+- Does not connect to the internet
 
-- **Personal Information** - No names, emails, or identifiers
-- **Usage Data** - No analytics or tracking
-- **Mouse Activity** - No tracking of movements or clicks
-- **Device Information** - No hardware or system data
-- **Location Data** - No location tracking
+## Local Data Storage
 
----
+RBv3X stores the following data locally on your device:
 
-## What Stays on Your Device
+- **Device Settings:** Your DPI configurations, RGB lighting preferences, and button mappings
+- **User Preferences:** App settings such as appearance mode (light/dark)
 
-All data is stored locally and never transmitted:
+This data never leaves your device and is stored in your user preferences (UserDefaults).
 
-- DPI settings and presets
-- RGB lighting configurations
-- Button mappings
-- App preferences
-- Profile data
+## Hardware Communication
 
----
+The app communicates directly with your Razer mouse via USB HID (Human Interface Device) protocol. This communication:
 
-## How the App Works
+- Happens locally on your Mac
+- Does not involve any network transmission
+- Uses standard macOS IOKit frameworks
 
-RBv3X communicates directly with your Razer mouse via USB HID protocol. This communication:
+## Third-Party Services
 
-- Happens entirely on your Mac
-- Requires no internet connection
-- Sends no data to external servers
-- Is used only to configure your mouse
+RBv3X does not integrate with any third-party analytics, advertising, or data collection services.
 
----
+## Data Security
 
-## Permissions
+Since all data is stored locally on your macOS device, it is protected by your system's security measures, including FileVault encryption if enabled.
 
-| Permission | Why It's Needed |
-|------------|-----------------|
-| Input Monitoring | Communicate with USB HID devices |
-| USB Access | Send settings to your mouse |
-| Bluetooth | Connect to wireless mice (optional) |
+## Children's Privacy
 
-These permissions are used solely for mouse communication. No data is collected.
+RBv3X does not collect any personal information from anyone, including children under 13 years of age.
 
----
+## Changes to This Policy
 
-## Third Parties
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.
 
-**Apple App Store** - The app is distributed through Apple. Their [Privacy Policy](https://www.apple.com/legal/privacy/) applies to App Store transactions.
+## Contact Us
 
-We do not use any analytics services, advertising networks, or data brokers.
+If you have any questions about this Privacy Policy, please visit our [Support page](support.md) or contact us through our [GitHub repository](https://github.com/7MichalKozlik7/RBv3X).
 
 ---
 
-## Your Control
-
-- **Uninstall** - Removes all local data
-- **Reset Settings** - Clear preferences in-app
-- **Revoke Permissions** - System Settings → Privacy & Security
-
----
-
-## Contact
-
-Questions about privacy?
-
-- **GitHub**: [github.com/7MichalKozlik7/RBv3X](https://github.com/7MichalKozlik7/RBv3X)
-- **Email**: michal@kozlik.dev
-
----
-
-## Changes
-
-We'll update this policy as needed. Check the "Last Updated" date above.
-
----
-
-© 2005 Michał Koźlik. All rights reserved.
-
-*RBv3X is an independent project, not affiliated with Razer Inc.*
+[Back to RBv3X](https://github.com/7MichalKozlik7/RBv3X)
